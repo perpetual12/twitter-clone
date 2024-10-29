@@ -13,7 +13,7 @@ const Posts = ({feedType}) => {
 				case "following":
 				return "/api/posts/following";
 				default: 
-				return "/apiposts/all";
+				return "/api/posts/all";
 		}
 	};
 
